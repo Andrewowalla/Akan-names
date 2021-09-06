@@ -8,59 +8,29 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/app.js"></script>
 </head>
+
 <body>
+
     <div class="akan">
-        <img src="images/gha.jpg" alt="" width="width" height="height">
+        <img src="images/gha1.jpg" alt="gha1">
     </div>
     <div class="container">
     <h1>AKAN NAMES</h1>
     </div>
      
     <div class="description">
-        <h1>Hello, Welcome to <strong>Akan names</strong> Ghanian culture </h1>
+        <h1>Hello, Welcome to <strong>Akan names</strong> Ghanian culture. </h1>
         <p>Akan names are derived from ghanian culture.</p>
         <p>Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
         <p>Similarly, this application will allow the user to input his/her birthday, calculate the day of the week they were born and then depending on their gender it will output their Akan Name. </p>
     </div>
-    <div class="container">
-        <form id="frm Akans">
-          <div class="row mb-3">
-              <label for="inputNumber3" class="col-sm-5 col-form-label">Century of Birth</label>
-              <div class="col-sm-10">
-              <input type="number" class="form control" id="inputNumber" placeholder="If born in 19th century, enter 19">
-              </div>
-          </div>
-        </form>
-    </div>
 
     <div class="container">
-        <form id="frm Akans">
-            <div class="row mb-3">
-                <label for="inputNumber3" class="col-sm-5 col-form-label">Year of Birth</label>
-                <div class="col-sm-10">
-                <input type="number" class="form control" id="inputNumber" placeholder="If born in the year 1999, enter 99">
-                </div>
-            </div>
-        </form>
-    </div>
-
-    <div class="container">
-        <form id="frm Akans">
+        <form id="frmAkans">
           <div class="row mb-3">
-              <label for="inputNumber3" class="col-sm-5 col-form-label">Month of birth</label>
+              <label for="inputNumber3" class="col-sm-5 col-form-label">Century</label>
               <div class="col-sm-10">
-              <input type="number" class="form control" id="inputNumber" placeholder="i.e 03">
-              </div>
-          </div>
-        </form>
-    </div>
-
-   <div class="container">
-        <form id="frm Akans">
-          <div class="row mb-3">
-              <label for="inputNumber3" class="col-sm-5 col-form-label">Date of Birth</label>
-              <div class="col-sm-10">
-              <input type="number" class="form control" id="inputNumber" placeholder="i.e 16">
+              <input type="date"  id="dateOfBorn" />
               </div>
           </div>
         </form>
@@ -84,6 +54,10 @@
             
         </div>
     </fieldset>
-    <button type="submit" class="btn btn-primary">Sign In</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <div id="Result">
+
+    </div>
+    <script src="js/app.js"></script>
 </body>
 </html>
