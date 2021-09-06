@@ -20,4 +20,5 @@ if (gender === "male"){
   document.querySelector ("#Return").innerHTML=("Your Akan name is "+fNames[d]);
 }
 }
+
 document.querySelector("#frmAkan").addEventListener("submit", checkAkan);
