@@ -1,6 +1,7 @@
 body {
-    background-color: rgba(0, 128, 0, 0.377);
-
+    background-image: url(gha.jpg);
+    background-size: cover;
+    text-align: center;
 }
 
 .container {
@@ -14,3 +15,16 @@ body {
 .container {
     color: gold;
 }
+
+  .akan{
+     display: flex;
+     justify-content: center;
+ }
+ .description{
+     border: 3px solid beige;
+     background-color: white;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+    
