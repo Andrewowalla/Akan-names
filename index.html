@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKAN NAMES-GHANIAN CULTURE</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 
 <body>
@@ -26,38 +22,35 @@
     </div>
 
     <div class="container">
-        <form id="frmAkans">
-          <div class="row mb-3">
-              <label for="inputNumber3" class="col-sm-5 col-form-label">Century.</label>
-              <div class="col-sm-10">
-              <input type="date"  id="dateOfBorn" />
-              </div>
-          </div>
-        </form>
-    </div>
-    <fieldset class="row mb-3">
-        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-        <div class="col-sm-10">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="Gender" id="gridRadios1" value="Male" checked>
-                <label class="form-check-label" for="gridRadios1">
+        <form id="frmAkans"> 
+            <label for="Date"> Date of birth.</label>
+            <input type="Date" name="dateOfBirth" id="dateOfBirth" value=>
+
+            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+
+            <div>
+            <input type="radio" name="gender" id="gender" value="Male" checked>
+            <label  for="Male">
                     Male
-                </label>
+            </label>
             </div>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="Gender" id="gridRadios1" value="Female" checked>
-                <label class="form-check-label" for="gridRadios2">
+            <div>
+                <input type="radio" name="gender" id="gender" value="Female" checked>
+                <label for="Female">
                     Female
                 </label>
             </div>
             
-        </div>
-    </fieldset>
-    <button type="submit" class="btn btn-primary">Submit</button>
-    <div id="Result">
+            <button type="submit" class="btn btn-success mt-4"> submit</button>
 
+            <div id="reveal-result"  class="alert alert-success"></div>
+
+        </form>
+
+        </div>
     </div>
     <script src="js/app.js"></script>
+
 </body>
 </html>
