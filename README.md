@@ -14,6 +14,8 @@ Languages used;
 HTML
 CSS
 JavaScript
+## Live link
+https://andrewowalla.github.io/Akan-names/
 ## Support and contact details
 Reach me at twitter @andrewowalla
 ### License
