@@ -1,8 +1,8 @@
 const giveAkanname = function (e) {
     e.preventDefault();
-    const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",];
+    const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-  
+
     const dayOfBirth = document.getElementById("dateOfBirth").value;
     if (!dayOfBirth) {
       return alert("Please Select Birthday");
